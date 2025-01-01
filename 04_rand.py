@@ -12,5 +12,5 @@ print(random.randint(min, max))
 # list data structure
 lst_names = ["Akbar", "Yegane", "Mahsa", "mina"]
 lst_names.append("Dani")
-lst_names.
-print(lst_names[random.randint(0,lst_names.count)])
+
+print(lst_names[random.randint(0,len(lst_names)-1)])
